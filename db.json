@@ -19,27 +19,27 @@
       "key": "showmeinvoiceamount",
       "textBoxLabelsAndMessages": [
         {
-	  "textBoxName":"invoiceNumber"
+	  "textBoxName":"invoiceNumber",
           "textBoxLabel": "Invoice Number",
           "placeholder": "Please Enter Invoice Number"
         },
         {
-	  "textBoxName":"invoiceDate"
+	  "textBoxName":"invoiceDate",
           "textBoxLabel": "Invoice Date",
           "placeholder": "Please Enter Invoice Date"
         },
         {
- 	  "textBoxName":"supplierName"
+ 	  "textBoxName":"supplierName",
           "textBoxLabel": "Supplier Name",
           "placeholder": "Please Enter Supplier Name"
         },
         {
- 	  "textBoxName":"supplierNumber"
+ 	  "textBoxName":"supplierNumber",
           "textBoxLabel": "Supplier Number",
           "placeholder": "Please Enter Supplier Number"
         },
         {
- 	  "textBoxName":"glDate"
+ 	  "textBoxName":"glDate",
           "textBoxLabel": "GL Date",
           "placeholder": "Please Enter GL Date"
         }
@@ -50,17 +50,17 @@
       "key": "showmepaymentdetails",
       "textBoxLabelsAndMessages": [
         {
- 	  "textBoxName":"paymentNumber"
+ 	  "textBoxName":"paymentNumber",
           "textBoxLabel": "Payment Number",
           "placeholder": "Please Enter Payment Number"
         },
         {
- 	  "textBoxName":"paymentDate"
+ 	  "textBoxName":"paymentDate",
           "textBoxLabel": "Payment Date",
           "placeholder": "Please Enter Payment Date"
         },
         {
- 	  "textBoxName":"invoiceNumber"
+ 	  "textBoxName":"invoiceNumber",
           "textBoxLabel": "Invoice Number",
           "placeholder": "Please Enter Invoice Number"
         }
