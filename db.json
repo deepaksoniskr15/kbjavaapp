@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "getIntentDetails": [
+    {
+      "id": 1,
+      "key": "showmeinvoiceamount",
+      "textBoxLabelsAndMessages": [
+        {
+          "testBoxName": "Invoice Number",
+          "placeholder": "Please Enter Invoice Number"
+        },
+        {
+          "testBoxName": "Invoice Date",
+          "placeholder": "Please Enter Invoice Date"
+        },
+        {
+          "testBoxName": "Supplier Name",
+          "placeholder": "Please Enter Supplier Name"
+        },
+        {
+          "testBoxName": "Supplier Number",
+          "placeholder": "Please Enter Supplier Number"
+        },
+        {
+          "testBoxName": "GL Date",
+          "placeholder": "Please Enter GL Date"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "key": "showmepaymentdetails",
+      "textBoxLabelsAndMessages": [
+        {
+          "testBoxName": "Payment Number",
+          "placeholder": "Please Enter Payment Number"
+        },
+        {
+          "testBoxName": "Payment Date",
+          "placeholder": "Please Enter Payment Date"
+        },
+        {
+          "testBoxName": "Invoice Number",
+          "placeholder": "Please Enter Invoice Number"
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "userId": 123,
+    "response": "success"
+  },
+  "defaultMessage": {
+    "message": "How can I help you? Enter help for more information"
+  }
+}
