@@ -33,6 +33,22 @@
     },
     {
       "id": 2,
+      "key": "showmeinvoiceamountTest",
+      "textBoxLabelsAndMessages": [
+        {
+          "textBoxName": "invoiceNumber",
+          "textBoxLabel": "Invoice Number",
+          "placeholder": "Please Enter Invoice Number"
+        },
+        {
+          "textBoxName": "invoiceDate",
+          "textBoxLabel": "Invoice Date",
+          "placeholder": "Please Enter Invoice Date"
+        }
+      ]
+    },
+    {
+      "id": 3,
       "key": "showmepaymentdetails",
       "textBoxLabelsAndMessages": [
         {
@@ -46,11 +62,43 @@
           "placeholder": "Please Enter Payment Date"
         }
       ]
+    },
+    {
+      "id": 4,
+      "key": "showmepaymentdetailsTest",
+      "textBoxLabelsAndMessages": [
+        {
+          "textBoxName": "paymentNumber",
+          "textBoxLabel": "Payment Number",
+          "placeholder": "Please Enter Payment Number"
+        },
+        {
+          "textBoxName": "paymentDate",
+          "textBoxLabel": "Payment Date",
+          "placeholder": "Please Enter Payment Date"
+        },
+        {
+          "textBoxName": "paymentId",
+          "textBoxLabel": "Payment Id",
+          "placeholder": "Please Enter Payment Id"
+        },
+        {
+          "textBoxName": "paymentType",
+          "textBoxLabel": "Payment Type",
+          "placeholder": "Please Enter Payment Type"
+        }
+      ]
     }
   ],
   "auth": {
     "userId": 123,
-    "response": "success"
+    "response": "success",
+    "message" : "login success"
+  },
+  "authTest": {
+    "userId": 0,
+    "response": "failure",
+    "message":"invalid credentials try again"
   },
   "defaultMessage": {
     "message": "How can I help you? Enter help for more information"
@@ -93,6 +141,39 @@
         "4": "Ind415",
         "5": "890",
         "6": "01-Jan-2018"
+      }
+    ]
+  },
+  "getDataByParamsTest": {
+    "tableName": "App Invoice Details Intent Data",
+    "headers": {
+      "0": "Invoice Number",
+      "1": "Invoice Date",
+      "2": "Invoice Type",
+      "3": "Supplier Name",
+      "4": "Supplier Number"
+    },
+    "values": [
+      {
+        "0": "Inv-123",
+        "1": "01-Jan-2018",
+        "2": "Standard Invoice",
+        "3": "Kumar Vishawas",
+        "4": "KV123"
+      },
+      {
+        "0": "Inv-456",
+        "1": "01-Jan-2018",
+        "2": "Standard Invoice",
+        "3": "Ms  Sandeep",
+        "4": "SAND1"
+      },
+      {
+        "0": "Inv-657",
+        "1": "01-Jan-2018",
+        "2": "Standard Invoice",
+        "3": "Kumar India",
+        "4": "Ind415"
       }
     ]
   }
