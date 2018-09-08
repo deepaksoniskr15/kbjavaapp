@@ -18,6 +18,20 @@
           "textBoxName": "supplierName",
           "textBoxLabel": "Supplier Name",
           "placeholder": "Please Enter Supplier Name"
+        },{
+          "textBoxName": "invoiceNumber2",
+          "textBoxLabel": "Invoice Number2",
+          "placeholder": "Please Enter Invoice Number2"
+        },
+        {
+          "textBoxName": "invoiceDate2",
+          "textBoxLabel": "Invoice Date2",
+          "placeholder": "Please Enter Invoice Date2"
+        },
+        {
+          "textBoxName": "supplierName2",
+          "textBoxLabel": "Supplier Name2",
+          "placeholder": "Please Enter Supplier Name2"
         }
       ]
     },
@@ -96,7 +110,8 @@
       "1": "Invoice Date",
       "2": "Invoice Type",
       "3": "Supplier Name",
-      "4": "Supplier Number"
+      "4": "Supplier Number",
+      "5": "Supplier address"
     },
     "values": [
       {
@@ -104,7 +119,8 @@
         "1": "01-Jan-2018",
         "2": "Standard Invoice",
         "3": "Kumar Vishawas",
-        "4": "KV123"
+        "4": "KV123",
+        "5": "ok1"
       },
       {
         "0": "Inv-456",
@@ -112,13 +128,22 @@
         "2": "Standard Invoice",
         "3": "Ms  Sandeep",
         "4": "SAND1"
+        "5": "ok2"
       },
       {
         "0": "Inv-657",
         "1": "01-Jan-2018",
         "2": "Standard Invoice",
         "3": "Kumar India",
-        "4": "Ind415"
+        "4": "Ind415",
+        "5": "ok3"
+      },{
+        "0": "Inv-666",
+        "1": "01-Jan-2018",
+        "2": "Invoice",
+        "3": "Kumar India",
+        "4": "Ind415",
+        "5": "ok4"
       }
     ]
   },
