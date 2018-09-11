@@ -1,4 +1,11 @@
 {
+  "getAllIntentNameList" : [
+    "showmeinvoiceamount",
+    "showmeinvoiceamountTest",
+    "showmepaymentdetails",
+    "showmepaymentdetailsTest"
+  ],
+  
   "getIntentDetails": [
     {
       "id": 1,
