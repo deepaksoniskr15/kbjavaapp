@@ -153,38 +153,5 @@
         "5": "ok4"
       }
     ]
-  },
-  "getDataByParamsTest": {
-    "tableName": "App Invoice Details Intent Data",
-    "headers": {
-      "0": "Invoice Number",
-      "1": "Invoice Date",
-      "2": "Invoice Type",
-      "3": "Supplier Name",
-      "4": "Supplier Number"
-    },
-    "values": [
-      {
-        "0": "Inv-123",
-        "1": "01-Jan-2018",
-        "2": "Standard Invoice",
-        "3": "Kumar Vishawas",
-        "4": "KV123"
-      },
-      {
-        "0": "Inv-456",
-        "1": "01-Jan-2018",
-        "2": "Standard Invoice",
-        "3": "Ms  Sandeep",
-        "4": "SAND1"
-      },
-      {
-        "0": "Inv-657",
-        "1": "01-Jan-2018",
-        "2": "Standard Invoice",
-        "3": "Kumar India",
-        "4": "Ind415"
-      }
-    ]
   }
 }
